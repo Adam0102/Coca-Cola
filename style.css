@@ -1,0 +1,13 @@
+.hatter{
+    opacity: 0.3;
+}
+ul li a:hover{
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 1px red;
+    font-size: larger;
+    
+}
+button{
+    box-shadow: 0px 0px 0px;
+}
