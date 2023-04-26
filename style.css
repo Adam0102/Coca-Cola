@@ -25,3 +25,9 @@ img{
 .email:hover{
     text-decoration: underline;
 }
+.markak a:hover{
+    color: red !important;
+    text-decoration: underline !important;
+    font-size: larger !important;
+    text-shadow: 1px 1px 1px black !important;
+}
