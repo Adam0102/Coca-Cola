@@ -20,3 +20,9 @@ img{
 .márka{
     font-family: 'Times New Roman', Times, serif;
 }
+.email{
+    text-decoration: none;
+}
+.email:hover{
+    text-decoration: underline;
+}
