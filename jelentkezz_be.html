@@ -10,7 +10,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="shortcut icon" href="képek/Cola - logo.ico" type="image/x-icon">
-    link
+    <style>
+        body{
+            background: fixed #fff; 
+            background-image: url(képek/letöltés.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -59,20 +67,20 @@
                     alt="Coca-Cola-Szöveg" title="Coca-Cola-Szöveg"></a>
         </div>
     </nav>
-    <h1 style="text-align: center;">Regisztrálj!</h1>
+    <h1 class="fw-bold text-center">Regisztrálj!</h1>
     <form>
         <div class="mb-3 mx-auto p-2" style=" width: 75%;">
-            <label for="exampleInputEmail1" class="form-label">Email cím</label>
+            <label for="exampleInputEmail1" class="form-label fs-3 fw-bold text-light">Email cím</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Sosem fogjuk megosztani az e-mail-jét mással!</div>
+            <div id="emailHelp" class="form-text  fs-3 fw-bold text-light">Sosem fogjuk megosztani az e-mail-jét mással!</div>
         </div>
         <div class="mb-3 mx-auto p-2" style=" width: 75%;">
-            <label for="exampleInputPassword1" class="form-label">Jelszó</label>
+            <label for="exampleInputPassword1" class="form-label  fs-3 fw-bold text-light">Jelszó</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
-            <div id="passwordHelp" class="form-text">Ne áruld el senkinek</div>
+            <div id="passwordHelp" class="form-text text-light fs-5">Ne áruld el senkinek</div>
         </div>
         <div class="mb-3 mx-auto p-2" style=" width: 75%;">
-            <label for="exampleInputPassword1" class="form-label">Jelszó újra</label>
+            <label for="exampleInputPassword1" class="form-label  fs-3 fw-bold text-light">Jelszó újra</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
             <div id="passwordHelp" class="form-text"></div>
         </div>
@@ -87,7 +95,7 @@
         </div>
         <div class="mb-3 mx-auto p-2" style=" width: 75%;">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Használati szabályzat elfogadása</label>
+            <label class="form-check-label  fs-3 fw-bold text-light" for="exampleCheck1">Használati szabályzat elfogadása</label>
         </div>
 
         <div class="mb-3 mx-auto p-2" style="text-align: center; width: 75%;">
@@ -195,18 +203,18 @@
                 <option value="31">31</option>
             </select>
         </div>
-        <div class="mb-3 mx-auto p-2" style=" width: 75%;">
+        <div class="mb-3 mx-auto p-2  fs-3 fw-bold text-light" style=" width: 75%;">
             Szeretne értesítéseket és híreket kapni?
             <div class="form-check">
 
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
+                <label class="form-check-label  fs-3 fw-bold text-light" for="flexRadioDefault2">
                     Igen
                 </label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
+                <label class="form-check-label  fs-3 fw-bold text-light" for="flexRadioDefault1">
                     Nem
                 </label>
             </div>
@@ -220,7 +228,7 @@
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
-                <img src="képek/Cola - logo.ico" class="rounded me-2" alt="...">
+                <img src="képek/Cola - logo.ico" class="rounded me-2" style="height: 10px; width: 10px;" alt="...">
                 <strong class="me-auto">Sikeres Regisztráció</strong>
                 <small>Épp most</small>
                 <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
